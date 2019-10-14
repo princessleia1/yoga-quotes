@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "001f0feb-9bf0-49db-88ed-10010b4e862b",
+    "appType": "app",
+    "appDisplayName": "Yoga-Quotes",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#673ab7",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Yoga-Quotes"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+  "publishConfig": { 
+  "registry": "https://npm.pkg.github.com/" 
+  }
+}
